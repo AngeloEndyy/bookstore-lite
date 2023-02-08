@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #552307;
+	position: relative;
+	background-image: url("../img/book.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: right bottom;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li a{
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.siteName{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.menu li a:hover,.active{
+	background-color: orange;
+	font-weight: 700;
+	transition: all ease 0.4s;
+}
+
+.here{
+	width: 650px;
+	position: absolute;
+	left: 10%;
+	top: 33%;
+	transition: traslate(-10%,-33%);
+	line-height: 64px;
+}
+
+.here p:nth-child(1),.here .details{
+	color: #6c707c;
+	font-size: 20px;
+}
+
+.details{
+	line-height: 30px !important;
+}
+
+.here h1{
+	font-size: 40px;
+	margin: 0;
+	letter-spacing: 3px;
+	color: #000;
+}
+
+.here span{
+	color: orangered;
+}
+
+.download{
+	width: 300px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: orangered;
+	color: #fff;
+	border-radius: 8px;
+}
+
+.download:hover{
+	background-color: #131313;
+	transition: all ease 0.4s;
+}
